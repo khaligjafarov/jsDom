@@ -28,7 +28,7 @@ a:hover {
   height: 54px;
   border-radius: 20px;
   font-size: 19px;
-  margin: 25px 0;
+  margin: 15px 0 15px;
 }
 #todo .box .btn {
   background-color: white;
@@ -56,4 +56,25 @@ a:hover {
   padding: 8px;
   border-radius: 20px;
   word-wrap: break-word;
+}
+@media screen and (max-width: 768px) {
+  #todo .box {
+    width: 230px;
+  }
+  #todo .box input {
+    height: 45px;
+    font-size: 16px;
+  }
+  #todo .box h1 {
+    font-size: 35px;
+  }
+  #todo .box .btn {
+    width: 65px;
+  }
+  #todo .minibox {
+    width: 170px;
+  }
+  #todo .minibox h2 {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
